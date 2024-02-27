@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="name">change tag,text and add id name, class name</div>
+    
+</body>
+<script>
+    function fun1(a){
+            //(1) innerHTML change tag with text
+        document.getElementById("name").innerHTML="<div><h1>hiii</h1><p>kaise hai aap sab</p></div>";
+
+        // --------------------------------------------------------------
+        
+            //(2) innerHTML add new iD and class name
+        document.getElementById("name").innerHTML=`<div><h1 id="id_test" >hello</h1><p>mera name satyajay hai</p></div>`;
+
+
+    }
+    fun1();
+
+</script>
+</html>
